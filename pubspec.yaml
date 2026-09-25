@@ -1,0 +1,21 @@
+name: ii_antcap
+description: II AntCap - Crypto Token Analyzer
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0  # Добавляем HTTP для API запросов
+  cached_network_image: ^3.3.0  # Для загрузки изображений
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
